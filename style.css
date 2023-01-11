@@ -1,5 +1,5 @@
 body {
-  background-color: #555555;  /* DURING DEVELOPMENT */
+  /* background-color: #555555;  DURING DEVELOPMENT */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -10,10 +10,10 @@ header img {
 
 #links {
   background-color: #037DBE;
-  padding-top: 5px;
+  /* padding-top: 5px;
   padding-left: 0;
   padding-bottom: 5px;
-  padding-right: 0;
+  padding-right: 0; */
 }
 
 nav {
@@ -23,21 +23,17 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
 }
 
-/* nav li {
-  float: left;
-  display: inline;
-  margin-right: 15px;
-  text-align: center;
-  white-space: nowrap;
-} */
+nav li {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 nav a {
   text-decoration: none;
   color: #ffffff;
-  padding-left: 5%;
+  padding-left: 5%;;
 }
 
 nav a:link {
