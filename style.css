@@ -10,24 +10,14 @@ header img {
 
 #links {
   background-color: #037DBE;
-  /* padding-top: 5px;
+  padding-top: 5px;
   padding-left: 0;
   padding-bottom: 5px;
-  padding-right: 0; */
+  padding-right: 0;
 }
 
 nav {
   padding-top: 61px;
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-}
-
-nav li {
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 nav a {
