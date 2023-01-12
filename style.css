@@ -1,5 +1,4 @@
 body {
-  /* background-color: #555555;  DURING DEVELOPMENT */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -92,7 +91,14 @@ aside a {
 }
 
 .featuredImage {
+  width: 100%;
   max-width: 100%;
+  height: auto;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .bold {
