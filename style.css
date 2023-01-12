@@ -37,3 +37,7 @@ nav a:visited {
 nav a:hover {
   color: #111111;
 }
+
+#sideBarHeading {
+  text-transform: uppercase;
+}
