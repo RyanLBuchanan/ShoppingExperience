@@ -25,20 +25,8 @@ nav a {
   padding-left: 5%;;
 }
 
-nav a:link {
-  color: #ffffff;
-}
-
-nav a:visited {
-  color: #551A8B;
-}
-
 nav a:hover {
   color: #111111;
-}
-
-#sideBarHeading {
-  text-transform: uppercase;
 }
 
 main {
@@ -72,6 +60,7 @@ aside a {
 }
 
 #sideBarHeading {
+  text-transform: uppercase;
   text-align: center;
   padding-top: 5px;
   padding-right: 0;
@@ -91,10 +80,8 @@ aside a {
   width: 90%;
 }
 
-.featuredImage img {
-  width: 100%;
+.featuredImage {
   max-width: 100%;
-  height: auto;
 }
 
 .bold {
@@ -113,6 +100,11 @@ footer {
   clear: both;
 }
 
+#socialMediaLinks {
+  float: left;
+  padding-left: 5%;
+}
+
 #socialMediaLinks img {
   width: 40px;
   padding-top: 6px;
@@ -122,7 +114,6 @@ footer {
 }
 
 #footerNav a {
-  display: inline;
   text-decoration: none;
   padding-right: 5%;
   float: right;
