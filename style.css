@@ -80,6 +80,7 @@ aside a {
 }
 
 #sideBarContainer {
+  display: table;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -145,3 +146,53 @@ footer {
   font-style: italic;
   padding-top: 35px;
 }
+
+.tableRow {
+  display: table-row;
+}
+
+.tableCell {
+  display: table-cell;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+.tableCell:first-child {
+  font-weight: bold;
+}
+
+#cartButtons {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 3%;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+#cartButtons button {
+  background-color: #037DBE;
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  padding: 2%;
+  cursor: pointer;
+}
+
+#cartButtons #clearCartButton {
+  background-color: #EEEEEE;
+  border: 1px solid #037DBE;
+  color: #037DBE;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.removeLink {
+  text-align: right;
+  font-size: 80%;
+  color: #037DBE;
+}
+
