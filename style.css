@@ -104,3 +104,44 @@ aside a {
 .bold {
   font-weight: bold;
 }
+
+footer {
+  background-color: #EEEEEE;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 10px;
+  padding-left: 0;
+  font-size: 80%;
+  height: 50px;
+  color: #4D4D4D;
+  clear: both;
+}
+
+#socialMediaLinks img {
+  width: 40px;
+  padding-top: 6px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 6px;
+}
+
+#footerNav a {
+  display: inline;
+  text-decoration: none;
+  padding-right: 5%;
+  float: right;
+  font-size: 120%;
+  color: #037DBE;
+  padding-top: 17px;
+}
+
+#footerNav a:hover {
+  color: #000000;
+}
+
+#copyright {
+  width: 200px;
+  margin: 0 auto;
+  font-style: italic;
+  padding-top: 35px;
+}
